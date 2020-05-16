@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CodePen - Confetti Cannon</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+    <div class="hero">
+      <canvas id="canvas"></canvas>
+      <div class="copy flow">
+        <marquee scrollamount="20"><h1>IT'S YOUR GODAMN BIRTHDAY!</h1></marquee>
+
+        <div class="img-cont"><img src="img/winning.jpg" /></div>
+
+        <h2>Do you want confetti?</h2>
+        <p>
+          Of <strong>course</strong> you bloody want confetti. click, drag &
+          release
+        </p>
+      </div>
+    </div>
+    <section class="compliments">
+      <div class="compliments_inner flow">
+        <h2 class="h2">COMPLIMENT GENERATOR</h2>
+
+        <button class="js-button">gimme a compliment</button>
+
+        <div class="quote">
+          <blockquote class="js-compliment">
+            You are an ancient leather purse
+          </blockquote>
+          <cite class="js-person">Locke</cite>
+        </div>
+      </div>
+    </section>
+
+    <section class="compliments compliments--music">
+      <div class="compliments_inner flow">
+        <h2 class="h2">Happy Birthday Mate <3</h2>
+
+        <img
+          class="cat"
+          src="https://media.giphy.com/media/kFCGvlQML6ySA/giphy.gif"
+        />
+      </div>
+    </section>
+    <!-- partial -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.5/TweenLite.min.js"></script>
+    <script src="js/Physics2DPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.13.1/lodash.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
