@@ -345,6 +345,10 @@
       compliment: 'Deffo better from behind.',
     },
     {
+      person: 'Stu',
+      compliment: 'Pretty and clever.',
+    },
+    {
       person: 'Jess',
       compliment: 'Rach. Just a head and legs.',
     },
