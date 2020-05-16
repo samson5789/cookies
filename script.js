@@ -377,6 +377,20 @@
       compliment:
         "I think you're even more spectacular than the dick pic you showed us on new years.",
     },
+    {
+      person: 'Alice',
+      compliment: "Rachel rachel, you're palatial",
+    },
+    {
+      person: 'Vix',
+      compliment:
+        "Ah Rach, as lovely as the day you were born... though I've heard you've never shied away from something pink and wrinkly.",
+    },
+    {
+      person: 'Alice',
+      compliment:
+        "It's no surprise summer starts on your birthday Rachel, as when you were born the sun found a reason to shine.",
+    },
   ];
 
   let compliment = document.querySelector('.js-compliment');
