@@ -167,13 +167,16 @@ cite {
   margin-left: 3.5rem;
 }
 
-button {
+.button {
+  display: block;
+  text-decoration: none;
   padding: 1rem 2rem;
   background: linear-gradient(135deg, #6e8efb, #a777e3);
   outline: none;
   cursor: pointer;
   font-family: 'Press Start 2P', cursive;
   color: #fff;
+  border: none;
 }
 
 .compliments--music {
@@ -191,6 +194,15 @@ button {
   max-height: 40vh;
 }
 
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex > * + * {
+  margin: 2rem;
+}
 /* fluid typography */
 :root {
   --fluid-min-width: 320;
